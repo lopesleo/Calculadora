@@ -1,0 +1,10 @@
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\bin\Release\Calculadora2.exe.config
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\bin\Release\Calculadora2.exe
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\bin\Release\Calculadora2.pdb
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\obj\Release\Calculadora2.csproj.AssemblyReference.cache
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\obj\Release\Calculadora2.Form1.resources
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\obj\Release\Calculadora2.Properties.Resources.resources
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\obj\Release\Calculadora2.csproj.GenerateResource.cache
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\obj\Release\Calculadora2.csproj.CoreCompileInputs.cache
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\obj\Release\Calculadora2.exe
+C:\Users\leona\Documents\CSharp\Calculadora\Calculadora2\obj\Release\Calculadora2.pdb

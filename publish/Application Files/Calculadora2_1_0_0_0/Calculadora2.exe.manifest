@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Calculadora2.exe" version="1.0.0.0" publicKeyToken="cf46aabc4d627bdc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Calculadora2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Calculadora2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto do UAC
+          Para alterar o nível de Controle de Conta de Usuário do Windows, substitua o nó
+          requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Para utilizar a Virtualização de Arquivos e Registro para manter a compatibilidade com versões anteriores,
+         exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Calculadora2.exe" size="14816">
+      <assemblyIdentity name="Calculadora2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tMHCl9iUPwPSOd52RcqXgkXbu+tZwVBk5vLSgKbsbcQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Calculadora2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-LMVAT1N\leona" issuerKeyHash="e451294ac26988db4340e77dc92e31ae4d0aac22" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kehXkgX83TyzWh/Jd65HAi4LQ77NVpwAx58l+Isg6FM=</DigestValue></Reference></SignedInfo><SignatureValue>kX63xGGDTjkcnwdO6DkAIbhXTwv5+YFjS4Z/KpkAuMEC/avQmDO2JedDG6Hdu074zdkZM2DbY5wziYX4I2FfmRSrZJN1B9TB+eSg2eG/s2sGjGHj3lnLOWulinoZsgdgd75Zdt96eHBQeZmoJHed2sR4iSxO//Anin3UscMIX/s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wSD77LRBTDR4FPSezZ7ASmk36IdcRfsL2sT2BG4CfiVeRWq1lQewWvogZITouiQqNPG8M+i64DmjiVl7qfiwOYr1Ag8DXi+YwBkp3CuqGdJMvLBHw2Y+dYzNBhbRRHrF37RtO7rwAAPzw+grMckzzDhpcr6XHrZ6xJw6nN/fFIU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="53e8208bf8259fc7009c56cdbe430b2e0247ae77c91f5ab33cddfc059257e891" Description="" Url=""><as:assemblyIdentity name="Calculadora2.exe" version="1.0.0.0" publicKeyToken="cf46aabc4d627bdc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-LMVAT1N\leona</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pWfleX8d36BIHbJrOB8WLUBEnseDFmJQdmTFs4x3qks=</DigestValue></Reference></SignedInfo><SignatureValue>Ij3qcjYAI6hJJyguF1AuWbOz0opnuVWf7MXYWIx7Gz46EtxIjHgjJC2DUXDXY8AMzp6Ph8dZ0W2LhaDPSYaD5POVk6e0pAt3flnSK6WxJdq0SEM2lVxsP9LI8NSYGXh9sxiqrd10PwM5kqfJ+H0iqO44S0+PKGw/LlAlM7N/bes=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wSD77LRBTDR4FPSezZ7ASmk36IdcRfsL2sT2BG4CfiVeRWq1lQewWvogZITouiQqNPG8M+i64DmjiVl7qfiwOYr1Ag8DXi+YwBkp3CuqGdJMvLBHw2Y+dYzNBhbRRHrF37RtO7rwAAPzw+grMckzzDhpcr6XHrZ6xJw6nN/fFIU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHR0HjdOivIdPWqQT1pHrojANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwATQBWAEEAVAAxAE4AXABsAGUAbwBuAGEwHhcNMjIwMjA5MTUzODA5WhcNMjMwMjA5MjEzODA5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEwATQBWAEEAVAAxAE4AXABsAGUAbwBuAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEg++y0QUw0eBT0ns2ewEppN+iHXEX7C9rE9gRuAn4lXkVqtZUHsFr6IGSE6LokKjTxvDPouuA5o4lZe6n4sDmK9QIPA14vmMAZKdwrqhnSTLywR8NmPnWMzQYW0UR6xd+0bTu68AAD88PoKzHJM8w4aXK+lx62esScOpzf3xSFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAuPhs2PjcYIexd6r1UhkkQOYtMxnWKXZD9Uelx/Bi1Y/HnwuvTam0hkK/yz+/5gSZbo+VuGPF/K0wxU5mTZfl3cK76Z4EknGLgmpqwaQ8tR+gXRfiF6qth6nEGsxvggFq9ziHUuuYza79Bfm+9QWgaoM24ymJygU4E+ynVy+Lf50=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
